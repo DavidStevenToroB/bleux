@@ -45,10 +45,21 @@ header{
 /* section 1 */
 .section-first{
     display: flex;
+    position: relative;
+    color: white;
 }  
 .section-left{
+    width: 50%;
+    background-position: left;
     background-color: rgb(46, 37, 80);
 }
-.section-rigtht{
-    background-image: url('../assents/img/hojasFondo.jpg');
+.section-h2{
+    font-size: 80px;
+}
+.section-rigth{
+    padding: auto;
+    width: 50%;
+    background-position: right;
+    background: url('../assents/img/hojasFondo.jpg');
+    background-size: 1000px;
 }
