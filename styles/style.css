@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana;
+}
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: sticky;
+    background-color: rgb(30, 23, 47);
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+}
+#nav-div{
+    display: flex;
+    align-items: center;
+}
+.nav-a{
+    margin-right: 15px;
+    text-decoration: none;
+    color:rgb(128, 125, 137);
+}
+.nav-a:hover{
+    color: white;
+}
+#nav-btn{
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(to right, rgb(126, 68, 213), rgb(17, 121, 213));
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+#nav-btn:hover{
+    background: rgb(126, 68, 213);
+}
+/* section 1 */
+.section-first{
+    display: flex;
+}  
+.section-left{
+    background-color: rgb(46, 37, 80);
+}
+.section-rigtht{
+    background-image: url('../assents/img/hojasFondo.jpg');
+}
