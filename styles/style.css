@@ -49,17 +49,72 @@ header{
     color: white;
 }  
 .section-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     width: 50%;
     background-position: left;
     background-color: rgb(46, 37, 80);
 }
+#section1-aside{
+    width: 400px;
+}
 .section-h2{
-    font-size: 80px;
+    font-size: 90px;
+}
+#section1-h4{
+    margin-top: 40px;
+    width: 650px;
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 400;
+    color: white;
+}
+#section1-div-btn{
+    margin-top: 40px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    border: 2px solid rgb(84, 78, 110);
+    border-radius: 5px;
+}
+#section1-btn1{
+    padding: 15px 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: transparent;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(246, 73, 161);
+}
+#section1-btn1:hover{
+    color: white;
+    background-color: rgb(246, 73, 161);
+}
+#section1-btn2{
+    padding: 15px 70px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+#section1-btn2:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
 }
 .section-rigth{
-    padding: auto;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    padding: 150px 0px 50px 100px;
     width: 50%;
     background-position: right;
     background: url('../assents/img/hojasFondo.jpg');
-    background-size: 1000px;
+    background-size: cover;
 }
