@@ -393,6 +393,8 @@ footer aside div{
     /* section1 */
     .section-left{
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .section-h2{
         font-size: 60px;
