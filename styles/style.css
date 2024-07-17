@@ -66,7 +66,7 @@ header{
 }
 #section1-h4{
     margin-top: 40px;
-    width: 650px;
+    width: 600px;
     font-size: 30px;
     font-family: system-ui;
     font-weight: 400;
@@ -294,8 +294,7 @@ footer aside div{
         padding-left: 20px;
     }
     #section1-h4{
-        width: auto;
-        font-size: 20px;
+        width: 500px;
     }
     #section1-div-btn{
         width: 450px;
@@ -388,10 +387,6 @@ footer aside div{
     .section-left{
         width: 100%;
     }
-    .section-rigth{
-        padding: 0;
-        width: 100%;
-    }
     .section-h2{
         font-size: 60px;
     }
@@ -407,6 +402,11 @@ footer aside div{
     #section1-btn1{
         margin-bottom: 5px;
         margin-right: 0px;
+    }
+    .section-rigth{
+        padding: 0;
+        width: 100%;
+        justify-content: center;
     }
       /* section2 */
     #aside-pinkColor-title{
