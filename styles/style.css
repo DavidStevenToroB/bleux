@@ -311,6 +311,13 @@ footer aside div{
         flex-direction: column;
         align-items: center;
     }
+    #section2-aside-p{
+        text-align: center;
+    }
+    #div-laptop{
+        display: flex;
+        justify-content: center;
+    }
     /* section3 */
     #section3-p{
         width: auto;
